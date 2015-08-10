@@ -20,7 +20,7 @@ namespace HarmonicSeries
                 //The ...else in this first if...else keeps "1" from printing as a fraction.
                 if (n != 0)
                 {
-                    Console.Write(1 + "/" + (n + 1));
+                    Console.Write(1 + "/{0:N0}", (n + 1));
                 }
                 else Console.Write(1);
 
@@ -46,7 +46,7 @@ namespace HarmonicSeries
             {
                 if (n > 0)
                 {
-                    Console.Write(1 + "/" + (n + 1));
+                    Console.Write(1 + "/{0:N0}", +(n + 1));
                 }
                 else Console.Write(1);
 
